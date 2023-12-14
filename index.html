@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <style>
+      table, tr, td{
+        padding: 0.7em;
+        border: 2px  solid black;
+      }
+      table{
+       margin: auto;
+       border: 5px  solid yellow;
+       border-collapse: collapse  ;
+       }
+       
+    </style>
+</head>
+<body>
+  <table >
+    <tr>
+      <td id="img1" colspan="6" rowspan="6"><img src="./20230910_151728.jpg" alt="" style="height: 250px;width: 250px;"></td>
+      <!-- <td>2</td> -->
+      <!-- <td>3</td> -->
+      <!-- <td>4</td> -->
+      <!-- <td>5</td> -->
+      <!-- <td>6</td> -->
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td id="img2" colspan="6" rowspan="6"><img src="./20230910_152053.jpg" alt="" style="height: 250px;width: 250px;"></td>
+      <!-- <td>11</td> -->
+      <!-- <td>12</td> -->
+      <!-- <td>13</td> -->
+      <!-- <td>14</td> -->
+      <!-- <td>15</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">16</td> -->
+      <!-- <td>17</td> -->
+      <!-- <td>18</td> -->
+      <!-- <td>19</td> -->
+      <!-- <td>20</td> -->
+      <!-- <td>21</td> -->
+      <td>4</td>
+      <td style="background-color: green;">5</td>
+      <td style="background-color: green;">6</td>
+      <!-- <td colspan="6">25</td> -->
+      <!-- <td>26</td> -->
+      <!-- <td>27</td> -->
+      <!-- <td>28</td> -->
+      <!-- <td>29</td> -->
+      <!-- <td>30</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">31</td> -->
+      <!-- <td>32</td> -->
+      <!-- <td>33</td> -->
+      <!-- <td>34</td> -->
+      <!-- <td>35</td> -->
+      <!-- <td>36</td> -->
+      <td>7</td>
+      <td style="background-color: green;">8</td>
+      <td>9</td>
+      <!-- <td colspan="6">40</td> -->
+      <!-- <td>41</td> -->
+      <!-- <td>42</td> -->
+      <!-- <td>43</td> -->
+      <!-- <td>44</td> -->
+      <!-- <td>45</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">46</td> -->
+      <!-- <td>47</td> -->
+      <!-- <td>48</td> -->
+      <!-- <td>49</td> -->
+      <!-- <td>50</td> -->
+      <!-- <td>51</td> -->
+      <td>10</td>
+      <td style="background-color: green;">11</td>
+      <td>12</td>
+      <!-- <td colspan="6">55</td> -->
+      <!-- <td>56</td> -->
+      <!-- <td>57</td> -->
+      <!-- <td>58</td> -->
+      <!-- <td>59</td> -->
+      <!-- <td>60</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">61</td> -->
+      <!-- <td>62</td> -->
+      <!-- <td>63</td> -->
+      <!-- <td>64</td> -->
+      <!-- <td>65</td> -->
+      <!-- <td>66</td> -->
+      <!-- <td>67</td> -->
+      <td>13</td>
+      <td style="background-color: green;">14</td>
+      <td>15</td>
+      <!-- <td colspan="6">71</td> -->
+      <!-- <td>72</td> -->
+      <!-- <td>73</td> -->
+      <!-- <td>74</td> -->
+      <!-- <td>75</td> -->
+    </tr>
+    <tr> 
+      <!-- <td colspan="6">76</td> -->
+      <!-- <td>77</td> -->
+      <!-- <td>78</td> -->
+      <!-- <td>79</td> -->
+      <!-- <td>80</td> -->
+      <!-- <td>81</td> -->
+      <td>16</td>
+      <td style="background-color: green;">17</td>
+      <td>18</td>
+      <!-- <td colspan="6">85</td> -->
+      <!-- <td>86</td> -->
+      <!-- <td>87</td> -->
+      <!-- <td>88</td> -->
+      <!-- <td>89</td> -->
+      <!-- <td>90</td> -->
+    </tr>
+    <tr>
+      <td>19</td>
+      <td style="background-color: blue;">20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td colspan="3" rowspan="3"><img src="./PhotoRoom-20230910_153007.png" alt="" height="100px" width="130px"></td>
+      <!-- <td>98</td> -->
+      <!-- <td>99</td> -->
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td style="background-color: blue;">32</td>
+      <td style="background-color: blue;">33</td>
+      <td style="background-color: blue;">34</td>
+      <td style="background-color: blue;">35</td>
+      <td style="background-color: blue;">36</td>
+      <!-- <td colspan="3">112</td> -->
+      <!-- <td>113</td> -->
+      <!-- <td>114</td> -->
+      <td style="background-color: yellow;">37</td>
+      <td style="background-color: yellow;">38</td>
+      <td style="background-color: yellow;" >39</td>
+      <td style="background-color: yellow;">40</td>
+      <td style="background-color: yellow;">41</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>44</td>
+      <td>45</td>
+      <td>46</td>
+      <td>47</td>
+      <td>48</td>
+      <!-- <td colspan="3">117</td> -->
+      <!-- <td>118</td> -->
+      <!-- <td>119</td> -->
+      <td>49</td>
+      <td>50</td>
+      <td>51</td>
+      <td>52</td>
+      <td style="background-color: yellow;">53</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td id="img3" colspan="6" rowspan="6"><img src="./20230910_152448.jpg" alt="" style="height: 240px;width: 240px;"></td>
+      <!-- <td>127</td> -->
+      <!-- <td>128</td> -->
+      <!-- <td>129</td> -->
+      <!-- <td>130</td> -->
+      <!-- <td>131</td> -->
+      <td>55</td>
+      <td style="background-color: red;">56</td>
+      <td>57</td>
+      <td id="img3" colspan="6" rowspan="6"><img src="./20230910_152602.jpg" alt="" style="height: 240px;width: 250px;"></td>
+      <!-- <td>136</td> -->
+      <!-- <td>137</td> -->
+      <!-- <td>138</td> -->
+      <!-- <td>139</td> -->
+      <!-- <td>140</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">141</td> -->
+      <!-- <td>142</td> -->
+      <!-- <td>143</td> -->
+      <!-- <td>144</td> -->
+      <!-- <td>145</td> -->
+      <!-- <td>146</td> -->
+      <td>58</td>
+      <td style="background-color: red;">59</td>
+      <td>60</td>
+      <!-- <td colspan="6">150</td> -->
+      <!-- <td>151</td> -->
+      <!-- <td>152</td> -->
+      <!-- <td>153</td> -->
+      <!-- <td>154</td> -->
+      <!-- <td>155</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">156</td> -->
+      <!-- <td>157</td> -->
+      <!-- <td>158</td> -->
+      <!-- <td>159</td> -->
+      <!-- <td>160</td> -->
+      <!-- <td>161</td> -->
+      <td>61</td>
+      <td style="background-color: red;">62</td>
+      <td>63</td>
+      <!-- <td colspan="6">165</td> -->
+      <!-- <td>166</td> -->
+      <!-- <td>167</td> -->
+      <!-- <td>168</td> -->
+      <!-- <td>169</td> -->
+      <!-- <td>170</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">171</td> -->
+      <!-- <td>172</td> -->
+      <!-- <td>173</td> -->
+      <!-- <td>174</td> -->
+      <!-- <td>175</td> -->
+      <!-- <td>176</td> -->
+      <td>64</td>
+      <td style="background-color: red;">65</td>
+      <td>66</td>
+      <!-- <td colspan="6">180</td> -->
+      <!-- <td>181</td> -->
+      <!-- <td>182</td> -->
+      <!-- <td>183</td> -->
+      <!-- <td>184</td> -->
+      <!-- <td>185</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">186</td> -->
+      <!-- <td>187</td> -->
+      <!-- <td>188</td> -->
+      <!-- <td>189</td> -->
+      <!-- <td>190</td> -->
+      <!-- <td>191</td> -->
+      <td style="background-color: red;">67</td>
+      <td style="background-color: red;">68</td>
+      <td>69</td>
+      <!-- <td colspan="6">195</td> -->
+      <!-- <td>196</td> -->
+      <!-- <td>197</td> -->
+      <!-- <td>198</td> -->
+      <!-- <td>199</td> -->
+      <!-- <td>200</td> -->
+    </tr>
+    <tr>
+      <!-- <td colspan="6">201</td> -->
+      <!-- <td>202</td> -->
+      <!-- <td>203</td> -->
+      <!-- <td>204</td> -->
+      <!-- <td>205</td> -->
+      <!-- <td>206</td> -->
+      <td>70</td>
+      <td>71</td>
+      <td>72</td>
+      <!-- <td colspan="6">210</td> -->
+      <!-- <td>211</td> -->
+      <!-- <td>212</td> -->
+      <!-- <td>213</td> -->
+      <!-- <td>214</td> -->
+      <!-- <td>215</td> -->
+    </tr>  
+  </table>
+</body>
+</html>
